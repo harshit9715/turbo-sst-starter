@@ -7,4 +7,11 @@ module.exports = {
     project: "./tsconfig.lint.json",
     tsconfigRootDir: __dirname,
   },
+  globals: {
+    require: "readonly",
+  },
+  rules: {
+    "no-redeclare": "off",
+    "no-unused-vars": "off",
+  },
 };
