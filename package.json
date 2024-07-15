@@ -3,15 +3,28 @@
   "private": true,
   "scripts": {
     "ui:add": "yarn workspace @repo/ui ui:add",
+    "backend:add": "yarn workspace @repo/backend add",
+    "ion:add": "yarn workspace @repo/ion add",
+    "web:add": "yarn workspace web add",
+    "docs:add": "yarn workspace docs add",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "sst": "yarn workspace @repo/ion sst",
     "api": "yarn workspace @repo/backend sst",
-    "website": "yarn workspace web dev"
+    "website": "yarn workspace web dev",
+    "prepare": "husky"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "turbo": "^2.0.6",
     "typescript": "5.3.3"
