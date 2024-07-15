@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.page}>
       <h1>Welcome to the Docs</h1>
       <p>This is a Next.js app deployed with Serverless Stack (SST).</p>
-      <Button appName="docs">Click me</Button>
+      <Button>Click me</Button>
       <Image src="/vercel.svg" alt="Vercel Logo" width={200} height={200} />
     </div>
   );

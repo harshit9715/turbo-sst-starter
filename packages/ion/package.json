@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@types/aws-lambda": "8.10.140",
-    "typescript": "^5.4.5"
+    "typescript": "5.3.3"
   },
   "engines": {
     "node": ">=18"
