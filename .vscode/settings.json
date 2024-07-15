@@ -1,7 +1,9 @@
 {
   "search.exclude": {
     "**/.sst": true,
-    "**/.turbo": true
+    "**/.turbo": true,
+    "**/.next": true,
+    "**/.open-next": true
   },
   "files.exclude": {
     "**/.git": true,
