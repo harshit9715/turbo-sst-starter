@@ -1,0 +1,19 @@
+{
+  "name": "@repo/ion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "sst dev",
+    "sst": "sst"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.140",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "sst": "ion"
+  }
+}

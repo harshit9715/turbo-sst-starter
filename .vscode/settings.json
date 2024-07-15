@@ -1,0 +1,6 @@
+{
+  "search.exclude": {
+    "**/.sst": true,
+    "**/.turbo": true
+  }
+}

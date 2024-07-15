@@ -5,7 +5,10 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "sst": "yarn workspace @repo/ion sst",
+    "api": "yarn workspace @repo/backend sst",
+    "website": "yarn workspace web dev"
   },
   "devDependencies": {
     "prettier": "^3.2.5",

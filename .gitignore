@@ -4,6 +4,7 @@
 node_modules
 .pnp
 .pnp.js
+yarn.lock
 
 # Local env files
 .env
@@ -23,6 +24,7 @@ coverage
 
 # Build Outputs
 .next/
+.open-next/
 out/
 build
 dist
@@ -36,3 +38,6 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# sst
+.sst
