@@ -15,7 +15,8 @@
     "**/.next": true,
     "**/.open-next": true,
     "**/.turbo": true,
-    "**/Thumbs.db": true
+    "**/Thumbs.db": true,
+    ".husky/": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
